@@ -28,6 +28,8 @@ const data = [
   },
 ]
 
+var port = process.env.PORT || 3000
+
 function getObjById(data, id) {
   return data.filter(obj => obj.id == id)
 }
@@ -52,4 +54,4 @@ app.get('/:id', (request, response) => {
   }
 })
 
-app.listen(3000)
+app.listen(port)
