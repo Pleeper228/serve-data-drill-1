@@ -4,27 +4,27 @@ const cors = require('cors')
 const data = [
   {
     id: 1,
-    cohort_name: '17-01-WD-DP',
-    cohort_code: 'g100',
+    cohortName: '17-01-WD-DP',
+    cohortCode: 'g100',
     number_of_students: 28
   },
   {
     id: 2,
-    cohort_name: '17-01-DS-GT',
-    cohort_code: 'g105',
-    number_of_students: 24
+    cohortName: '17-01-DS-GT',
+    cohortCode: 'g105',
+    numberOfStudents: 24
   },
   {
     id: 3,
-    cohort_name: '17-02-WD-PX',
-    cohort_code: 'g109',
-    number_of_students: 30
+    cohortName: '17-02-WD-PX',
+    cohortCode: 'g109',
+    numberOfStudents: 30
   },
   {
     id: 4,
-    cohort_name: '17-03-WD-BD',
-    cohort_code: 'g110',
-    number_of_students: 29
+    cohortName: '17-03-WD-BD',
+    cohortCode: 'g110',
+    numberOfStudents: 29
   },
 ]
 
